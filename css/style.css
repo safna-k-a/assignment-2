@@ -1,0 +1,176 @@
+/* author:safna K A*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container {
+    font-family: "Roboto", sans-serif;
+}
+.banner {
+    background-image: url("../images/academy-banner.jpg");
+    min-height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+.heading {
+    margin-right: 8%;
+    width: 100%;
+}
+.quotes h1 {
+    font-size: 60px;
+    text-align: right;
+    font-weight: 900;
+}
+.logo {
+    text-align: right;
+    padding: 20px;
+}
+.training img {
+    height: 100%;
+    margin: 10% 0 0 10%;
+}
+.training-detail {
+    background-color: #000;
+    color: #0af0d9;
+    height: fit-content;
+    width: 50%;
+    padding: 25px 25px 25px 50px;
+    line-height: 2;
+    font-size: 30px;
+    margin: 200px 0 0 -100px;
+}
+
+.training-detail p::before {
+    content: "{";
+    color: rgb(217, 17, 67);
+}
+.training-detail p::after {
+    content: "}";
+    color: rgb(217, 17, 67);
+}
+.training-content {
+    color: #252525;
+    padding: 10px;
+    text-align: center;
+    line-height: 1.7;
+    font-size: 20px;
+    margin-top: 5%;
+}
+.course {
+    background-image: url("../images/modulebg.jpg");
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.course-detail {
+    height: fit-content;
+    padding: 170px 135px;
+}
+.php {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: fit-content;
+    padding: 10px 100px 10px 100px;
+    color: #fff;
+    border-radius: 10px;
+}
+.interview {
+    min-height: 100vh;
+}
+.interview-img {
+    padding: 0;
+    margin: 0;
+}
+.img-male {
+    height: 500px;
+    background-image: url("../images/testsbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+}
+.img-female {
+    height: 500px;
+    background-image: url("../images/intrvwbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+}
+.male-content {
+    background-color: rgba(6, 8, 11, 0.7);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    margin-left: 0;
+    line-height: 2;
+    text-align: center;
+}
+.male-content p {
+    width: 50%;
+}
+.contact {
+    min-height: 100vh;
+}
+.button {
+    width: fit-content;
+    font-weight: bold;
+}
+.join h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+.address {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 972px) and (min-width: 234px) {
+    .banner {
+        background-image: none;
+        background-color: #ecf9ff;
+        padding: 0;
+        margin: 0;
+    }
+    .quotes h1 {
+        font-size: 50px;
+    }
+    .training-img {
+        margin-left: 0;
+        width: 100%;
+        min-width: 0;
+        padding: 0;
+    }
+    .training-img img {
+        margin: 0;
+        width: 100%;
+    }
+    .training-detail {
+        left: 0;
+        width: 100%;
+        font-size: 15px;
+        margin: 0;
+    }
+    .training {
+        margin: 0;
+    }
+    .training-content {
+        text-align: center;
+    }
+    .course {
+        height: 1050px;
+    }
+    .course-detail {
+        padding: 50px 135px;
+        width: 100%;
+    }
+    .img-male,
+    .img-female {
+        padding: 0;
+        width: 100%;
+        height: 370px;
+    }
+}
